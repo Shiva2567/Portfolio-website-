@@ -5,5 +5,88 @@ script.js
 style.css
 common-jpg
 navp.jpg
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><i poloju shiva kumari</i></h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is poloju shiva kumar Interested in enhancing and exploring my technical knowledge through a beginner role am now pursuing my bachelor degree in computer science engineering and  I am now looking for an internship opportunity in the field of engineering with a progressive organization.Passionate about implementing and launching new projects.Looking to start the career as an entry-level software engineer  and content manager with a reputed firm driven by technology.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>Software design</li>
+                <li>Software development</li>
+                <li>Communication</li>
+                <li>Teamwork</li>
+            </ul>
+        </div>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1:Netflix Clone Page</h3>
+            <p>The objective of this project is to design and develop a web page that resembles the Netflix
+                interface, allowing users to browse and explore a collection of movies and TV shows. The clone
+                page should provide an engaging and user-friendly experience.
+                </p>
+        </div>
+        <div class="project">
+            <h3>Project 2:Online Code Editor</h3>
+            <p>The objective of this project is to design and develop an online code editor that supports
+                multiple programming languages, providing users with an interface to write and execute code
+                in a web browser. The code editor should include features such as syntax highlighting, code
+                execution, and output display. (Either for { HTML, CSS, JS} or { Python, C, C++, Java, etc…}</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>LinkedIn:www.linkedin.com/poloju shiva-1b9101232</p>
+        <p>Phone No:9948******</p>
+        <p>gmailId:shivakumarpoloju2003@gmail.com</p>
+    </section>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+
+                window.scrollTo({
+                    top: targetSection.offsetTop,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
 
