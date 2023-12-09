@@ -1,5 +1,5 @@
 # Portfolio-website-
 portfolio.css
-portfolio.gtml
+portfolio.html
 portfolio.js
 
