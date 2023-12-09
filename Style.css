@@ -1,0 +1,56 @@
+/* Reset some default styles*/
+*{
+  margin:0;* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+}
+
+/* Customize the appearance of your portfolio sections */
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+/* Add more specific styling for your content as needed */
+  
+  padding; 0;
+  box-sizing; border- box;
+}
+/* define
